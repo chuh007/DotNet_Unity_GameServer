@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/GameModules/System/UI/LoadingScreenView.uss?fileID=7433441132597879392&amp;guid=6b239509ed2ed1643bf523411fe02072&amp;type=3#LoadingScreenView"/>
+    <ui:VisualElement name="loading-root" class="loading-screen">
+        <ui:VisualElement name="center" class="loading-center">
+            <ui:Label text="CASUAL RPG" name="game-title" class="game-title"/>
+            <ui:Label text="P I X E L   A D V E N T U R E" name="game-subtitle" class="game-subtitle"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="loading-bottom" class="loading-bottom">
+            <ui:Label text="접속 준비 중..." name="status-label" class="status-label"/>
+            <ui:VisualElement name="progress-track" class="progress-track">
+                <ui:VisualElement name="progress-fill" class="progress-fill"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label text="v0.1.0" name="version-label" class="version-label"/>
+    </ui:VisualElement>
+</ui:UXML>
